@@ -1,0 +1,21 @@
+.sidebarContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 12%;
+  height: 100%;
+}
+
+.sidebarContainer ul {
+  list-style: none;
+  cursor: pointer;
+}
+
+.sidebarContainer ul li {
+  margin: 0 10px 5px 10px;
+  border: none;
+  border-radius: 6px;
+  padding: 8px;
+  font-size: 24px;
+}

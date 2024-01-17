@@ -1,0 +1,71 @@
+.bookCardContainer {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.modalWindow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.closeIconDiv {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bookCardContainer img {
+  border: 1px solid rgb(182, 21, 21);
+  border-radius: 14px;
+  width: 320px;
+  height: 450px;
+}
+
+.bookCardContainer h3 {
+  font-size: 22px;
+}
+
+.titleDiv {
+  height: 95px;
+  display: flex;
+  align-items: center;
+  width: 93%;
+}
+
+.titleDiv h2 {
+  color: rgb(182, 21, 21);
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.ratingContainer {
+  display: flex;
+  align-items: center;
+}
+
+.reset {
+  border: none;
+  padding: 7px 15px;
+  border-radius: 5px;
+  background-color: #f8ad00;
+  margin: 0px 7px;
+  font-size: 17px;
+}
+
+.buttonsDiv {
+  display: flex;
+  margin: 10px 0 30px 0;
+}
+
+.buttonsDiv button {
+  padding: 15px 40px;
+  background-color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin: 5px 15px 15px 0;
+  color: black;
+  font-size: 20px;
+  border: 1px solid rgb(182, 21, 21);
+}
